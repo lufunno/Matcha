@@ -12,4 +12,23 @@ Matcha is  a web project that challenges you to create a dating website. The web
 - A user is able to view other users profiles.
 - A user is able to chat to other users if the app matches them.
 - A user is able to receive notification from the app.
+# How to set up and configure the database
+Download MAMP from the bitnami website Open the manager-osx. Go to the Manage servers tabs and make sure mysql database is running. If not press Restart. Press configure, this should show details about the port. Open a web browser and go to http://localhost:(the port)/phpmyadmin Create the database titled Matcha, navigate to import.
+
+# How to run the program
+run server and a database to on. navigate to localhost:8080/Matcha in your browser to open the website
+
+# Code Breakdown
+Back end technologies 
+>JavaScript
+
+Front-end technologies 
+>bootstrap 
+>HTML 
+>CSS
+
+Database management systems 
+>mysql 
+>phpmyadmin
+
 

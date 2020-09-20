@@ -1,9 +1,9 @@
 <?php
-    include_once "config/config.php";
-    
-    $_SESSION['login'] = "";
-    $_SESSION['passwd'] = "";
-    ob_start();
-    header("Location: login.php");
-    ob_end_flush();
-?>
+
+session_start();
+$_SESSION['logged_on_user'] = '';
+$_SESSION['email'] = '';
+$_SESSION['first_name'] = '';
+$_SESSION['last_name'] = '';
+$_SESSION['pro_pic'] = '';
+header('LOCATION: index.php');

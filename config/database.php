@@ -1,8 +1,5 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "654321";
-    $dbname = "matcha";
-    $charset = "utf8mb4";
-    $dns = "mysql:host=".$servername.";dbname=".$dbname.";charset=".$charset;
-?>
+
+$DB_DSN = 'mysql:host=127.0.0.1';
+$DB_USER = 'root';
+$DB_PASSWORD = '0834962107';
